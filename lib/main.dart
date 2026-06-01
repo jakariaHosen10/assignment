@@ -1,7 +1,65 @@
 import 'package:flutter/material.dart';
-
-import 'RegisterPage.dart';
+import 'CounterApp/Home.dart';
+import 'TodoApp/Home.dart';
 
 void main() {
-  runApp(Module12());
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home:Homepage() ,
+      // routes: {
+      //   '/': (context) => Module12(),
+      //   '/Homepage': (context) => Homepage(),
+      //   '/Detailspage': (context) => Detailspage(counter:
+      //     ,),
+      // },
+      // initialRoute:  '/Homepage',
+    )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  );
 }
+
+

@@ -8,6 +8,7 @@ import '../Widget/TextDesign.dart';
 
 void showMyCustomDialog(BuildContext context) {
   showDialog(
+    barrierDismissible: false,
     context: context,
     builder: (context) => AlertDialog(
       title: Row(

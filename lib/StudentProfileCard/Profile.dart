@@ -43,7 +43,7 @@ class _ProfilePageState extends State<ProfilePage> {
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Badge(
-                        offset: Offset(-15.w, 5.h),
+                        offset: Offset(-12.w, 5.h),
                         padding: EdgeInsets.symmetric(
                           horizontal: 5.sp,
                           vertical: 1.sp,
@@ -52,13 +52,14 @@ class _ProfilePageState extends State<ProfilePage> {
                         textColor: Colors.white,
                         label: Text('New'),
                         child: CircleAvatar(
-                          backgroundColor: Colors.indigo[100],
+                          backgroundImage:AssetImage("assets/mr_king1.jpg"),
+                          // backgroundColor: Colors.indigo[100],
                           radius: 40.w,
-                          child: Icon(
-                            Icons.person,
-                            size: 40.sp,
-                            color: Colors.indigo[700],
-                          ),
+                          // child: Icon(
+                          //   Icons.person,
+                          //   size: 40.sp,
+                          //   color: Colors.indigo[700],
+                          // ),
                         ),
                       ),
                       SizedBox(height: 10.h),

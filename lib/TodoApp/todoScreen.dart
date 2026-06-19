@@ -70,7 +70,7 @@ class _TodoScreenState extends State<TodoScreen> {
                       borderRadius: BorderRadius.circular(6),
                       color: Colors.blue,
                       image: DecorationImage(
-                        image: AssetImage('assets/images1.jpg'),
+                        image: AssetImage('assets/Todo.jpg'),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -86,7 +86,7 @@ class _TodoScreenState extends State<TodoScreen> {
                         // color: Colors.indigo,
                         borderRadius: BorderRadius.circular(30),
                         image: DecorationImage(
-                          image: AssetImage('assets/images1.jpg'),
+                          image: AssetImage('assets/Todo.jpg'),
                           fit: BoxFit.cover,
                         ),
                       ),

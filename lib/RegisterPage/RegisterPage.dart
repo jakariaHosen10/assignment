@@ -173,7 +173,7 @@ class Module12 extends StatelessWidget {
                     SizedBox(height: 20),
                     CustomButton(
                       ButtonText: 'Continue with Apple',
-                      ButtonLogu: 'assets/download.png',
+                      ButtonLogu: 'assets/Apple.png',
                     ),
                     SizedBox(height: 0),
                   ],

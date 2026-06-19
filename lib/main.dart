@@ -6,7 +6,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:Homepage() ,
+      home: Homepage(),
       // routes: {
       //   '/': (context) => Module12(),
       //   '/Homepage': (context) => Homepage(),
@@ -14,52 +14,6 @@ void main() {
       //     ,),
       // },
       // initialRoute:  '/Homepage',
-    )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    ),
   );
 }
-
-
